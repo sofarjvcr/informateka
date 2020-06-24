@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="C:\lazarus\fpc\3.0.4\bin\x86_64-win64\fpc.exe" Date="1331397621"/>
+  <Params Value=" -MObjFPC -Scghi -O1 -g -gl -l -vewnhibq -FiF:\cjabz\программы\informateka\hw_01_modules\lib\x86_64-win64 -FuF:\cjabz\программы\informateka\hw_01_modules\ -FUF:\cjabz\программы\informateka\hw_01_modules\lib\x86_64-win64\ -FEF:\cjabz\программы\informateka\hw_01_modules\ -oF:\cjabz\программы\informateka\hw_01_modules\project1.exe project1.pas"/>
+</CONFIG>

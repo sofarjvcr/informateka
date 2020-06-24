@@ -19,6 +19,11 @@ end;
   C : Point;
 end;
 
+  TRectangle = record
+  A : Point;
+  C : Point;
+  end;
+
 function CreatePoint() : Point;
 function CreateTriangle(): Triangle;
 function GetDistance(M : Point;N : Point): Real;
@@ -28,6 +33,11 @@ procedure TrPerAndSide(F : Triangle; out AB : Real; out BC : Real; out AC : Real
 function CreateLine() : Line;
 function CrossTest( p1, p2, p3, p4 : Point): Boolean;
 function CrossTriAndLine (F : Triangle; L : Line): Boolean;
+
+function CreateRectangle(): TRectangle;
+function GetRecPer(R : TRectangle): Real;
+procedure TrPerAndSide(R : TRectangle; out AB : Real; out BC : Real; out P1 : Real);
+function GetBigger(const F: Triangle; const R: TRectangle): Integer;
 
 
 implementation
@@ -111,7 +121,41 @@ begin
 
    exit(False);
 end;
+ // ЗАЩИТА : ПРЯМОУГОЛЬНИК
 
+function CreateRectangle(): TRectangle;
+begin
+   CreateRectangle.A :=  CreatePoint;
+   CreateRectangle.C :=  CreatePoint;
+end;
 
+function GetRecPer(R : TRectangle): Real;
+var
+  AB, BC : Real;
+begin
+   AB := abs(R.C.x - R.A.x);
+   BC := abs(R.C.y - R.A.y);
+   GetRecPer := 2*(AB + BC);
+end;
 
+procedure TrPerAndSide(R : TRectangle; out AB : Real; out BC : Real; out P1 : Real);
+begin
+   AB := abs(R.C.x - R.A.x);
+   BC := abs(R.C.y - R.A.y);
+   P1 := GetRecPer(R);
+end;
+
+function GetBigger(const F: Triangle; const R: TRectangle): Integer;
+var
+  P1, P : Real;
+begin
+   P1 := GetRecPer(R);
+   P := GetTrPer(F);
+   if (P > P1) then  GetBigger := -1;
+   if (abs(P-P1) <=  0.001) then  GetBigger := 0;
+   if (P < P1) then  GetBigger := 1;
+
+end;
+
+end.
 

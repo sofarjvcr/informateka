@@ -5,10 +5,12 @@ uses  geometry;
 var
   T: Triangle;
   L: Line;
+  R: TRectangle;
 begin
 
   T:= CreateTriangle();
   L:= CreateLine() ;
+  R:= CreateRectangle();
 
   WriteLn('AB = ', GetDistance(T.A, T.B):0:6);
   WriteLn('BC = ', GetDistance(T.B, T.C):0:6);
@@ -20,6 +22,9 @@ begin
 
   WriteLn('Is Crossed = ', CrossTriAndLine(T, L));
 
+
+
+  Writeln('Is Bigger = ', GetBigger(T, R));
   Readln();
 end.
 
