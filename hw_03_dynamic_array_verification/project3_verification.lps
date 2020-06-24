@@ -6,10 +6,10 @@
     <BuildModes Active="Default"/>
     <Units Count="1">
       <Unit0>
-        <Filename Value="project3.pas"/>
+        <Filename Value="project3_verification.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="80" Y="12"/>
+        <CursorPos X="13" Y="18"/>
         <UsageCount Value="35"/>
         <Loaded Value="True"/>
       </Unit0>

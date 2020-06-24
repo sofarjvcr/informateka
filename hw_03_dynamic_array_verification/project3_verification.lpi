@@ -11,7 +11,7 @@
       </Flags>
       <SessionStorage Value="InProjectDir"/>
       <MainUnit Value="0"/>
-      <Title Value="project3"/>
+      <Title Value="project3_verification"/>
       <UseAppBundle Value="False"/>
       <ResourceType Value="res"/>
     </General>
@@ -28,9 +28,8 @@
     </RunParams>
     <Units Count="1">
       <Unit0>
-        <Filename Value="project3.lpr"/>
+        <Filename Value="project3_verification.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="project3_verification"/>
       </Unit0>
     </Units>
   </ProjectOptions>
@@ -38,7 +37,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="project3"/>
+      <Filename Value="project3_verification"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

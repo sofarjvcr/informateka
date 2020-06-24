@@ -28,9 +28,8 @@
     </RunParams>
     <Units Count="1">
       <Unit0>
-        <Filename Value="project3.lpr"/>
+        <Filename Value="project3.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="project3_verification"/>
       </Unit0>
     </Units>
   </ProjectOptions>
