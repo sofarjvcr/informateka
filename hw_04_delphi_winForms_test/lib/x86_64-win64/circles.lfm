@@ -1,0 +1,83 @@
+object Form1: TForm1
+  Left = 360
+  Height = 600
+  Top = 76
+  Width = 800
+  BorderStyle = bsSingle
+  Caption = 'Окружности'
+  ClientHeight = 600
+  ClientWidth = 800
+  Position = poDesktopCenter
+  LCLVersion = '2.0.6.0'
+  object Image1: TImage
+    Left = 232
+    Height = 522
+    Top = 8
+    Width = 559
+  end
+  object Edit1: TEdit
+    Left = 72
+    Height = 25
+    Top = 13
+    Width = 49
+    AutoSize = False
+    Color = 16757759
+    TabOrder = 0
+    Text = 'X'
+  end
+  object Edit2: TEdit
+    Left = 152
+    Height = 25
+    Top = 13
+    Width = 49
+    AutoSize = False
+    Color = 16757759
+    TabOrder = 1
+    Text = 'Y'
+  end
+  object Edit3: TEdit
+    Left = 71
+    Height = 25
+    Top = 54
+    Width = 50
+    AutoSize = False
+    Color = 16757759
+    TabOrder = 2
+    Text = 'R'
+  end
+  object Button1: TButton
+    Left = 0
+    Height = 40
+    Top = 88
+    Width = 232
+    Caption = 'Добавить'
+    Color = 16776975
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Radius: TLabel
+    Left = 16
+    Height = 15
+    Top = 56
+    Width = 35
+    Caption = 'Radius'
+    ParentColor = False
+  end
+  object Center: TLabel
+    Left = 16
+    Height = 15
+    Top = 16
+    Width = 35
+    Caption = 'Center'
+    ParentColor = False
+  end
+  object Button2: TButton
+    Left = 0
+    Height = 44
+    Top = 136
+    Width = 231
+    Caption = 'Нарисовать'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+end

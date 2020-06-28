@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="2">
+      <Unit0>
+        <Filename Value="project_winforms.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="28"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="circles.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="66"/>
+        <CursorPos X="56" Y="98"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+    </Units>
+    <JumpHistory Count="7" HistoryIndex="6">
+      <Position1>
+        <Filename Value="circles.pas"/>
+        <Caret Line="27" Column="13" TopLine="3"/>
+      </Position1>
+      <Position2>
+        <Filename Value="circles.pas"/>
+        <Caret Line="9" Column="52" TopLine="3"/>
+      </Position2>
+      <Position3>
+        <Filename Value="circles.pas"/>
+        <Caret Line="14" Column="23" TopLine="3"/>
+      </Position3>
+      <Position4>
+        <Filename Value="circles.pas"/>
+        <Caret Line="4" Column="45" TopLine="10"/>
+      </Position4>
+      <Position5>
+        <Filename Value="circles.pas"/>
+        <Caret Line="44" Column="8" TopLine="16"/>
+      </Position5>
+      <Position6>
+        <Filename Value="circles.pas"/>
+        <Caret Line="51" Column="3" TopLine="23"/>
+      </Position6>
+      <Position7>
+        <Filename Value="circles.pas"/>
+        <Caret Line="56" Column="56" TopLine="27"/>
+      </Position7>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
